@@ -58,4 +58,4 @@ var now = function() {
   return hrtime[0] * 1000000 + hrtime[1] / 1000;
 };
 
-console.log(("Benchmark underway: " + limit + " " + interval + " second intervals.").cyan);
+console.log(("Benchmark iniciado: " + limit + " " + interval + " intervalo en segundos.").cyan);
