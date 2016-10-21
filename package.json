@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ameza/bench-cdn/issues"
   },
-  "homepage": "https://github.com/ameza/bench-cdn#readme"
+  "homepage": "https://github.com/ameza/bench-cdn#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fastsync": "^0.4.0",
+    "nomnom": "^1.8.1",
+    "request": "^2.75.0"
+  }
 }

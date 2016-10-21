@@ -29,7 +29,6 @@ setInterval(function() {
     process.exit();
     return;
   }
-
   var output = fs.readFileSync(out, 'utf-8') + '\n' + new Date();
 
   // Iteramos por los archivos uno a la vez
